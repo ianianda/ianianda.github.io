@@ -258,12 +258,14 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="js/wallgallery.js"></script>
 		<script>
-			$(function () {
+			$(document).ready(function () {
+				$(function () {
 
-				Gallery.init({
-					layout: [4, 3, 4, 3]
+					Gallery.init({
+						layout: [4, 3, 4, 3]
+					});
+
 				});
-
 			});
 		</script>
 </body>

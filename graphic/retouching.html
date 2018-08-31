@@ -213,13 +213,16 @@
 	<!-- /container -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="js/wallgallery.js"></script>
-	<script>
-		$(function () {
+	<script>	
+		$(document).ready(function () {
 
-			Gallery.init({
-				layout: [3, 2, 3, 2]
+			$(function () {
+
+				Gallery.init({
+					layout: [3, 2, 3, 2]
+				});
+
 			});
-
 		});
 	</script>
 </body>
