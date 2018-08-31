@@ -1,0 +1,242 @@
+/*
+ * Author: Yan Wang
+ * Date: 2018-06
+ */
+
+html {
+    background: url("../images/landscape.jpg")  no-repeat fixed top; 
+    background-size: 100%;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: bisque;
+    padding: 20px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start:1;
+    grid-column-end:5;
+}
+
+body{
+    height: 100%;
+    margin-bottom: 10px;
+}
+nav {
+    background-color: cornflowerblue;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start:1;
+    grid-column-end:5;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+    font-size: 16px;
+}
+
+h1{
+    font: 40px bold;
+    font-family: sans-serif;
+}
+
+h2{
+    font: 36px bold;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+nav > ul{
+    text-align: center;
+}
+
+nav > ul >li{
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+ul {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+li {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+/* footer */
+footer{
+    
+    background-color: rgb(214, 198, 198);
+    color: white;
+    text-align: center;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start:1;
+    grid-column-end:5;
+    opacity: 0.8;
+}
+
+/* sprites */
+
+#image01{
+    background: url("../images/css_sprites.png") 0px 0px;
+    display: inline-block;
+}
+
+#image02{
+    background: url("../images/css_sprites.png") -70px 0px;
+    display: inline-block;
+}
+
+#image03{
+    background: url("../images/css_sprites.png") -140px 0px;
+    display: inline-block;
+}
+
+a[id^="image"]{
+    width: 60px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* grid layout*/
+
+.container{
+    display: grid;
+    margin:20px;
+    /*display: block;
+    box-sizing: inherit;*/
+    grid-template-columns: auto;
+    grid-template-rows: 25% 25% 25% 25%;
+    justify-content: center;	
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+    max-width: 1550px;
+}
+
+.aside01 {
+    color:yellow;
+    background-color: black;
+    position: inherit;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start:1;
+    grid-column-end:1;
+    display: inline-block;
+
+}
+
+main{
+    display: inline-block;
+    color: greenyellow;
+    background-color: brown;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start:2;
+    grid-column-end:4;
+}
+
+.article01 {
+    display: inline-block;
+    background-color: brown;
+}
+
+.aside02 {
+    color:purple;
+    background-color: seagreen;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start:4;
+    grid-column-end:4;
+    min-height: 350px;
+}
+
+.article03 {
+    display: inline-block;
+    background-color: purple;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start:1;
+    grid-column-end:5;
+    min-height: 110px;
+    margin-bottom: 20px;
+}
+
+/* end of grid */
+#content {
+    position: relative;
+    padding: 20px;
+}
+
+#text {
+    position: absolute;
+    top: 20px;
+    right: 120px;
+    width: 90px;
+}
+
+#image04{
+    background: url("../images/css_sprites.png") -210px 0px;
+    position: absolute;
+    top: 0px;
+    right: 200px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+#image05{
+    background: url("../images/css_sprites.png") -240px 0px;
+    position: absolute;
+    top: 0px;
+    right: 60px;
+    width: 50px;   
+}
+
+.box{
+    margin:10px;
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+tr {
+    text-shadow: 1px;
+    margin-bottom:2px;
+    border: black 1px solid;
+}
+
+th {
+    background-color: aqua;
+    margin-bottom: 1px;
+    border: black 1px solid;
+    padding: 15px;
+}
+
+td{
+    color: burlywood;
+    text-align: center;
+    padding: 15px;
+}
+
+fieldset{
+    margin-left:auto; 
+    margin-right:auto;
+}
+.send{
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+label{
+    padding-left:26px;
+    margin-bottom: 20px;
+    width:125px;
+    text-transform: uppercase;
+    display:inline-block
+}

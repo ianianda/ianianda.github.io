@@ -1,0 +1,88 @@
+html {
+    background-image: url("../images/restbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 110%;
+    background-color: hsla(0,70%,70%,0.30);
+    background-blend-mode: overlay;
+
+
+}
+
+nav {
+  text-align: center;
+  background-color: aliceblue;
+  padding-left: 10px;
+  margin: auto;
+  width: 100%;
+  border: 3px solid whitesmoke;
+  padding: 10px;
+  color: red;
+}
+
+h3 {
+  margin-top: 60px;
+}
+
+h4 {
+  font-style: italic;
+color: grey;
+}
+a {
+  text-decoration: none;
+  color: #866813;
+}
+
+
+header {
+    text-align: center;
+}
+
+
+body {
+    margin-top: 60px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    
+  }
+
+figure {
+    text-align: left;
+    display: table;
+    max-width: 30%; /* demo; set some amount (px or %) if you can */
+    margin: 10px auto; /* not needed unless you want centered */
+    font-size: .75rem;
+    color: #666;
+  }
+
+  img {
+    height: auto;
+    width: 600px;
+  }
+
+meter {
+    width: 15%; /* Adjust with JavaScript */
+    height: 20px;
+    color: #333;         
+}
+
+ meter::after {
+    content : 'value: ' attr(value) '/10';
+    top:-17px;
+    left:40px;
+    position:relative;
+}
+
+  
+
+
+  footer {
+    bottom: 200px;
+    text-align: center;
+    background-color: aliceblue;
+    width: 100%;
+    border: 3px solid whitesmoke;
+    padding: 10px;
+    margin-top: 100px;
+}

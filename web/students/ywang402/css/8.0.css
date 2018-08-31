@@ -1,0 +1,152 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("normalize.css");
+@-ms-viewport {
+  width: device-width;
+}
+
+header {
+  background-color: #3d1313 !important;
+  margin-bottom: 0px;
+}
+
+header .navbar-inverse {
+  background-color: #7758e9;
+  border-color: #341f4e;
+}
+
+header .navbar-inverse .navbar-nav {
+  margin: 0px;
+}
+
+header .navbar-inverse .navbar-nav li a {
+  color: #d3f030;
+}
+
+header .navbar-inverse .navbar-nav li a:hover {
+  background-color: #341f4e;
+}
+
+header .navbar-inverse .navbar-brand {
+  margin-left: 10px !important;
+  color: #d3f030;
+}
+
+header .navbar-form {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none !important;
+  filter: none !important;
+}
+
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+
+.carousel-item > img {
+  position: absolute;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.col-xs-4 {
+  background: rgba(157, 52, 99, 0.7);
+}
+
+.col-md-4 {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+button {
+  margin-right: 20px;
+  color: #d3f030;
+  background-color: #341f4e;
+}
+
+button:hover {
+  background-color: rgba(157, 52, 99, 0.7);
+}
+
+footer {
+  background-color: #341f4e;
+}
+
+footer p {
+  color: white;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+footer ul li {
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+footer img {
+  margin-top: 0px;
+  margin-right: 10px;
+  width: 30%;
+  height: auto;
+}
+
+footer a {
+  display: inline;
+}
+
+h6 {
+  font-size: 23px;
+  font-weight: bold;
+  color: #d3f030;
+}
+
+#myFooter {
+  margin: 0 auto;
+  color: white;
+  padding: 10px;
+}

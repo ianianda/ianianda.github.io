@@ -1,0 +1,118 @@
+<!--
+    Author: Yan Wang
+    Date: 2018-06
+    Notice: for Chrome users to allow the sound plugin running: 1. Open chrome://flags/#autoplay-policy
+                                                                2. Setting No user gesture is required
+                                                                3. Relaunch Chrome
+    Free MP3 sounds download: http://www.orangefreesounds.com/ I do not reserve any copyright for the sounds used here.
+-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery Plugins Effects</title>
+    <link rel="stylesheet" href="css/6.0.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.bgpos.js"></script>
+    <script type="text/javascript" src="scripts/6.0.2.js"></script>
+
+</head>
+
+<body>
+    <div id="content">
+
+        <div id="menuWrapper" class="menuWrapper bg1">
+            <ul class="menu" id="menu">
+                <li class="bg1" style="background-position:0 0;">
+                    <a class="loud-link-hover" data-sound="garden" id="bg1" href="#">Background Navigation</a>
+                    <ul class="sub1" style="background-position:0 0;">
+                        <li>
+                            <a class="loud-link-hover" data-sound="Mouse-click-sound" href="https://tympanus.net/codrops/2010/05/05/beautiful-background-image-navigation-with-jquery/">Official Page</a>
+                        </li>
+                        <li>
+                            <a class="loud-link-click" data-sound="clicking" href="#box1">Description</a>
+                            <div id="box1" class="login-popup">
+                                <a href="#" class="close">
+                                    <img src="images/close_pop.png" class="btn_close" title="Close Window" alt="Close" />
+                                </a>
+                                <p>This plugin can make slide effect of images. The three lists contain a same image but different
+                                    position.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a class="loud-link-click" data-sound="clicking" href="#box4">My Customizing</a>
+                            <div id="box4" class="login-popup">
+                                <a href="#" class="close">
+                                    <img src="images/close_pop.png" class="btn_close" title="Close Window" alt="Close" />
+                                </a>
+                                <p>background images; background color; sub-background images; font; text transformation; icon;
+                                    paragraph properties; some variables and looping strings in JS functions</p>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="bg1" style="background-position:-266px 0px;">
+                    <a class="loud-link-hover" data-sound="garden" id="bg2" href="#">Loud Link</a>
+                    <ul class="sub2" style="background-position:-266px 0;">
+                        <li>
+                            <a class="loud-link-hover" data-sound="Mouse-click-sound" href="https://github.com/mahdif/loud-links/">Official Github</a>
+                        </li>
+                        <li>
+                            <a class="loud-link-click" data-sound="clicking" href="#box2">Description</a>
+                            <div id="box2" class="login-popup">
+                                <a href="#" class="close">
+                                    <img src="images/close_pop.png" class="btn_close" title="Close Window" alt="Close" />
+                                </a>
+                                <p>This plugin allows sound effect when user hovers / click buttons. The sound file should in
+                                    .mp3 or .ogg</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="loud-link-click" data-sound="clicking" href="#box5">My Customizing</a>
+                            <div id="box5" class="login-popup">
+                                <a href="#" class="close">
+                                    <img src="images/close_pop.png" class="btn_close" title="Close Window" alt="Close" />
+                                </a>
+                                <p>sound effect; class name that passed to function; JS function content</p>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="last bg1" style="background-position:-532px 0px;">
+                    <a class="loud-link-hover" data-sound="garden" id="bg3" href="#">Dialog Box</a>
+                    <ul class="sub3" style="background-position:-266px 0;">
+                        <li>
+                            <a class="loud-link-hover" data-sound="Mouse-click-sound" href="http://www.alessioatzeni.com/blog/login-box-modal-dialog-window-with-css-and-jquery/">official page</a>
+                        </li>
+                        <li>
+                            <a class="loud-link-click" data-sound="clicking" href="#box3">Description</a>
+                            <div id="box3" class="login-popup">
+                                <a href="#" class="close">
+                                    <img src="images/close_pop.png" class="btn_close" title="Close Window" alt="Close" />
+                                </a>
+                                <p>This plugin pop up a dialog window as you see here.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="loud-link-click" data-sound="clicking" href="#box6">My Customizing</a>
+                            <div id="box6" class="login-popup">
+                                <a href="#" class="close">
+                                    <img src="images/close_pop.png" class="btn_close" title="Close Window" alt="Close" />
+                                </a>
+                                <p>font; paragraph format; margin</p>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/loudlinks.min.js"></script>
+</body>
+
+</html>

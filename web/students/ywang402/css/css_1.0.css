@@ -1,0 +1,120 @@
+/*---
+title:  Css_1.0.css
+author: Yan Wang
+---*/
+
+html {
+    background-image: url("../images/avengers.jpg");
+    background-position: center top; 
+}
+
+nav {
+    text-align: center;
+    font-family: "Georgia", serif;
+    margin-top: 40px;
+}
+
+.options{
+    font-size: 20px;
+    color: darkorchid;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;    
+}
+
+.options:hover:after,
+.options:focus:after,
+.options:active:after {
+    right: 0;
+}
+
+.options:after {     
+    text-decoration: underline;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: -5px;
+    background:pink;
+    height: 4px;
+    transition-property: right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+h1 {
+    font-family: "Georgia", serif;
+    margin: 100px 600px 30px 100px;
+    font-size: 40px;
+    color: darkorchid;
+}
+
+#foreimage {
+    height: 200px;
+    width: auto;
+}
+
+
+#interests {
+    font-family: "Georgia", serif;
+    line-height: 1.8;
+    margin: 30px 300px 30px 30px;
+}
+
+#fav {
+    background-color: whitesmoke;
+    margin: 5%;
+    opacity: 0.6;
+}
+
+#onlineRes {
+
+    font-family: "Georgia", serif;
+    margin: 100px 100px 20px 100px;
+    font-size: 20px;
+    color: darkred;
+}
+
+.resLink {
+    list-style-type: none;
+    font-family: "Georgia", serif;
+    overflow: hidden;
+    font-size: 20px;
+    color: darkorchid;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;  
+    margin: 100px 10px 2px 100px;
+}
+
+.resLink:hover:after,
+.resLink:focus:after,
+.resLink:active:after {
+    right: 0;
+}
+
+.resLink:after {     
+    text-decoration: underline;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    background:pink;
+    height: 4px;
+    bottom: -5px;
+    transition-property: right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+footer {
+    text-align: center;
+    font-family: "Georgia", serif;
+}
+
+.validator {
+    text-decoration: none;
+    color: darkcyan;
+}
