@@ -673,4 +673,11 @@ $(document).ready(function () {
 		return { init: init };
 
 	})();
+	$(function () {
+
+		Gallery.init({
+			layout: [3, 2, 3, 2]
+		});
+
+	});
 });
