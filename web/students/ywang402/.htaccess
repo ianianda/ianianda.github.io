@@ -1,7 +1,0 @@
-# Author: Yan Wang
-# Date: 2018-06 
-
-ErrorDocument 404 /students/ywang402/errors/file_not_found.html
-
-AddType application/x-httpd-php .html htm
-AddHandler application/x-httpd-php .html htm
